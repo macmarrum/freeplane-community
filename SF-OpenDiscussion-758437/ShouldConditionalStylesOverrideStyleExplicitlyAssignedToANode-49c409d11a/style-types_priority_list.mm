@@ -121,17 +121,7 @@
 </node>
 <node TEXT="" ID="ID_299082566" CREATED="1633278531138" MODIFIED="1633278531138" NUMBERED="true">
 <node TEXT="Node own formatting" ID="ID_1990732226" CREATED="1633248991086" MODIFIED="1633276505746">
-<node TEXT="So that I can set the format of a single node" ID="ID_1906189745" CREATED="1633256845668" MODIFIED="1633280855038"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      regardless of any format resulting from an explicitly assigned style or from a conditional/automatic style
-    </p>
-  </body>
-</html></richcontent>
+<node TEXT="So that I can set the format of a single node" ID="ID_1906189745" CREATED="1633256845668" MODIFIED="1633411276415">
 <node TEXT="If Node Own Formatting doesn&apos;t have the highest priority (beside Selected), when other style-types are used, the ease of final touches on individual-node level will be lost. All formatting will need to be done via setting/changing a style (conditional, user-defined, etc)" ID="ID_1542923508" CREATED="1633281144852" MODIFIED="1633286564588"/>
 </node>
 </node>
@@ -145,51 +135,21 @@
 </node>
 <node TEXT="" ID="ID_557976391" CREATED="1633278533083" MODIFIED="1633278533083" NUMBERED="true">
 <node TEXT="Automatic edge color: for branches, levels, columns" ID="ID_479155169" CREATED="1633249755766" MODIFIED="1633251906182">
-<node TEXT="So that I can have a single configuration to set the edge color of all nodes in the map, based on each node&apos;s branch/level/column. (Except for Columns, the same can be achieved using Map Conditional Style, but this is more user-friendly. For Levels, the same can be achieved using Automatic level style, but this is more specialized and therefore easier to understand)" ID="ID_201296957" CREATED="1633276200383" MODIFIED="1633409116458"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      regardless of any automatic-level style or user-defined/predefined style
-    </p>
-  </body>
-</html></richcontent>
+<node TEXT="So that I can have a single configuration to set the edge color of all nodes in the map, based on each node&apos;s branch/level/column. (Except for Columns, the same can be achieved using Map Conditional Style, but this is more user-friendly. For Levels, the same can be achieved using Automatic level style, but this is more specialized and therefore easier to understand)" ID="ID_201296957" CREATED="1633276200383" MODIFIED="1633411276418">
 <node TEXT="If Automatic Edge Color: For Branches/Levels/Columns doesn&apos;t have a higher priority than Conditional Styles, then the user-friendly functionality of switching it on and off for the whole map will be of limited value. Conditional Styles can be switched on and off, but on each rule&apos;s level (less user-friendly)." ID="ID_1510993261" CREATED="1633282974101" MODIFIED="1633409007656"/>
 </node>
 </node>
 </node>
 <node TEXT="" ID="ID_406918653" CREATED="1633278531795" MODIFIED="1633278531795" NUMBERED="true">
 <node TEXT="Node conditional style" ID="ID_359333148" CREATED="1633248991086" MODIFIED="1633275099179">
-<node TEXT="So that I can set the format of a single node based on its value or any other condition" ID="ID_1715639661" CREATED="1633256439458" MODIFIED="1633280869126"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      regardless of any format resulting from a user-defined/predefined style or from a map-conditional/automatic style
-    </p>
-  </body>
-</html></richcontent>
+<node TEXT="So that I can set the format of a single node based on its value or any other condition" ID="ID_1715639661" CREATED="1633256439458" MODIFIED="1633411276420">
 <node TEXT="If Node Conditional Style doesn&apos;t have a higher priority than Map Conditional Style, then the flexibility of using per-node conditions alongside per-map conditions will be lost." ID="ID_1638574129" CREATED="1633281912733" MODIFIED="1633283865895"/>
 </node>
 </node>
 </node>
 <node TEXT="" ID="ID_1117002516" CREATED="1633278532435" MODIFIED="1633278532435" NUMBERED="true">
 <node TEXT="Map conditional style" ID="ID_1913367105" CREATED="1633248991086" MODIFIED="1633275102266">
-<node TEXT="So that I can have a single configuration to set the format of all nodes in the map, based on each node&apos;s value or any other condition" ID="ID_483885663" CREATED="1633256589502" MODIFIED="1633280877158"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      regardless of any format resulting from a user-defined/predefined style
-    </p>
-  </body>
-</html></richcontent>
+<node TEXT="So that I can have a single configuration to set the format of all nodes in the map, based on each node&apos;s value or any other condition" ID="ID_483885663" CREATED="1633256589502" MODIFIED="1633411276421">
 <node TEXT="If Map Conditional Style doesn&apos;t have a higher priority than Automatic Level Styles, then the flexibility of setting a different format for a level based on a condition, while retaining the other Automated-Level-Style formats, will be lost. (BTW, Level Styles should be made available for Conditional and Manual application -- in 1.9.9 they are hidden)" ID="ID_1164978815" CREATED="1633282045128" MODIFIED="1633285172933"/>
 </node>
 </node>
